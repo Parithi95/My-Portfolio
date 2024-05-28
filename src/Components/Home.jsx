@@ -17,10 +17,10 @@ const Home = () => {
         className=" bg-gradient-to-r from-blue-200 to-green-400 md:min-w-max h-full  "
         id="home"
       >
-        <div className="container flex  justify-between items-start mx-auto w-screen min-h-screen min-w-max border border-black">
-          <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full min-h-fit border border-black">
+        <div className="container flex  justify-between items-start mx-auto w-screen min-h-screen min-w-max ">
+          <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full min-h-fit ">
             <div
-              className=" grow my-20 mx-5 py-10 px-5 rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-72  bg-center bg-cover border-black border"
+              className=" grow my-20 mx-5 py-10 px-5 rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-72  bg-center bg-cover"
               style={{
                 backgroundImage:
                   "url(https://img.freepik.com/premium-photo/happy-cartoon-3d-programmer-hacker_1124848-5316.jpg)",
@@ -38,8 +38,8 @@ const Home = () => {
               }}
             ></div>
           </div>
-          <div className=" md:grow mt-20 flex justify-start self-stretch border border-black  ">
-            <div className=" my-20 flex flex-col items-start justify-center max-w-md  p-6 ml-5 border border-black">
+          <div className=" md:grow mt-20 flex justify-start self-stretch  ">
+            <div className=" my-20 flex flex-col items-start justify-center max-w-md  p-6 ml-5 ">
               <div className="flex gap-x-1">
                 <div className="">
                   <svg

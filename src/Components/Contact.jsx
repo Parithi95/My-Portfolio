@@ -109,13 +109,11 @@ const Contact = () => {
               </h1>
             </div>
             <div>
-              <p className="text-wrap mt-2 h-20 w-96 text-md font-bold tracking-widest text-white">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
-                diam nonummy nibh euismod tincidunt ut laoreet dolore.Lorem
-                ipsum dolor sit amet, consectetuer adipiscing elit
+              <p className="text-wrap mt-10  w-96 text-md font-bold tracking-widest text-white">
+                Please feel free to reach out to me
               </p>
             </div>
-            <div className="mt-14 flex flex-col">
+            <div className="mt-10 flex flex-col">
               <div className="flex   p-3 gap-2">
                 <div className="border-2 border-black rounded-full p-2 bg-yellow-300">
                   <svg
