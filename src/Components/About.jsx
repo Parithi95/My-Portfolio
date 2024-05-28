@@ -2,6 +2,8 @@ import { useState } from "react";
 import React from "react";
 import TypeIt from "typeit-react";
 import resume from "../assets/Images/Resume.pdf";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const About = () => {
   const [instance, setInstance] = useState(null);
@@ -164,8 +166,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mt-20 grow self-stretch p-5 flex flex-col ">
-          <div className=" flex  ">
+        <div className="mt-20 grow self-stretch p-5  flex flex-col ">
+          <div className=" flex gap-10 ">
             <div className=" grow w-52  ">
               <img
                 className="w-full rounded-3xl "
@@ -173,8 +175,8 @@ const About = () => {
                 alt=""
               />
             </div>
-            <div className=" grow flex flex-col  justify-center ">
-              <div className="group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-4 hover:p-1 transition duration-700 ease-in-out">
+            <div className=" grow flex flex-col gap-2 justify-center ">
+              <div className="group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-3  transition duration-700 ease-in-out">
                 <div className="mx-3 p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -195,7 +197,7 @@ const About = () => {
                   <a href="mailto:parithi95@gmail.com">Mail</a>
                 </div>
               </div>
-              <div className=" group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-4 hover:p-1 transition duration-700 ease-in-out">
+              <div className=" group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-3  transition duration-700 ease-in-out">
                 <div className="mx-3 p-2">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -216,6 +218,30 @@ const About = () => {
                   <a href={resume} download={"Elamparithi-Resume"}>
                     Resume
                   </a>
+                </div>
+              </div>
+              <div className=" group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-3  transition duration-700 ease-in-out">
+                <div className="mx-3 p-2">
+                  <FontAwesomeIcon
+                    icon={faLinkedinIn}
+                    className="size-7 group-hover:text-white stroke-2"
+                  />
+                </div>
+                <div className="p-2  text-xl font-normal group-hover:text-white">
+                  <a href="https://www.linkedin.com/in/elamparithi-u-5341a6233/">
+                    LinkedIn
+                  </a>
+                </div>
+              </div>
+              <div className=" group mt-2 mx-2 flex border-2 rounded-2xl shadow-xl cursor-pointer bg-yellow-400 hover:bg-green-600 hover:border-3  transition duration-700 ease-in-out">
+                <div className="mx-3 p-2">
+                  <FontAwesomeIcon
+                    icon={faGithub}
+                    className="size-8 group-hover:text-white stroke-2"
+                  />
+                </div>
+                <div className="p-2  text-xl font-normal group-hover:text-white">
+                  <a href="https://github.com/Parithi95">Github</a>
                 </div>
               </div>
             </div>
