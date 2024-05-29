@@ -17,19 +17,20 @@ const Portfolio = () => {
             <div className="group mx-2 my-2 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300  ">
               <div className="text-center mt-2">
                 <h2 className="text-black tracking-widest text-4xl font-bold p-2 font-serif group-hover:text-white  transition duration-700 ease-in-out shadow-md shadow-white">
-                  XO GAME
+                  NETFLIX CLONE
                 </h2>
               </div>
               <div className="p-3  ">
                 <div className="flex  justify-start">
                   <div className=" basis-40 py-2">
                     <p className="text-black tracking-wider text-base ">
-                      User Interface
+                      Browse & Search
                     </p>
                   </div>
                   <div className=" grow py-2">
                     <p className="text-black tracking-wider text-base w-72">
-                      Designed an intuitive and user-friendly interface.
+                      Users can browse movies and TV shows categorized by
+                      genres.
                     </p>
                   </div>
                 </div>
@@ -41,8 +42,8 @@ const Portfolio = () => {
                   </div>
                   <div className=" grow py-2">
                     <p className="text-black tracking-wider text-base w-72">
-                      Utilized React to create a dynamic and responsive user
-                      interface.
+                      Built the user interface using React for efficient
+                      component-based development.
                     </p>
                   </div>
                 </div>
@@ -54,19 +55,22 @@ const Portfolio = () => {
                   </div>
                   <div className=" grow py-2">
                     <p className="text-black tracking-wider text-base w-72">
-                      Managed game state using React state and hooks.
+                      Managed application state using Redux for a scalable state
+                      management solution.
                     </p>
                   </div>
                 </div>
                 <div className="flex  justify-start">
                   <div className=" basis-40 py-2">
                     <p className="text-black tracking-wider text-base">
-                      Styling
+                      Movie Details
                     </p>
                   </div>
                   <div className=" grow py-2">
                     <p className="text-black tracking-wider text-base w-72">
-                      Applied CSS for styling, ensuring a clean and modern look.
+                      Clicking on a movie or TV show displays detailed
+                      information, including the title, description, rating, and
+                      trailer.
                     </p>
                   </div>
                 </div>
@@ -79,7 +83,8 @@ const Portfolio = () => {
                   <div className=" grow  ">
                     <p className="text-black tracking-wider text-base  w-72">
                       Gained experience in specific technologies, e.g., React
-                      hooks, state management.
+                      hooks, state management,TMDB API,Styled components,
+                      Norigin Media Spatial Navigation.
                     </p>
                   </div>
                 </div>
@@ -153,7 +158,7 @@ const Portfolio = () => {
                   <div className=" grow  ">
                     <p className="text-black tracking-wider text-base  w-72">
                       Enhanced understanding of RESTful API design and
-                      integration.
+                      integration, React Query,Material UI.
                     </p>
                   </div>
                 </div>
@@ -227,7 +232,8 @@ const Portfolio = () => {
                   <div className=" grow  ">
                     <p className="text-black tracking-wider text-base  w-72">
                       Enhanced understanding of pagination for large product
-                      catalogs
+                      catalogs,Tailwind Css, Third Party Library Integration
+                      customization
                     </p>
                   </div>
                 </div>
