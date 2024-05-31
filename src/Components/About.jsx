@@ -1,7 +1,7 @@
 import { useState } from "react";
 import React from "react";
 import TypeIt from "typeit-react";
-import resume from "../assets/Images/Resume.pdf";
+import resume from "../assets/Images/Elamparithi_ReactDev.pdf.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
 
@@ -10,11 +10,11 @@ const About = () => {
 
   return (
     <section
-      className=" bg-gradient-to-r from-pink-300 to-gray-300  h-screen min-h-screen min-w-max"
+      className=" bg-gradient-to-r from-pink-300 to-gray-300  h-screen min-h-screen w-full"
       id="about"
     >
-      <div className="  container flex justify-between items-start mx-auto w-screen h-full min-w-max   ">
-        <div className="  mt-20 grow self-stretch p-5 flex flex-col max-w-3xl overflow-scroll no-scroll ">
+      <div className="  container flex justify-between items-start mx-auto  h-full   ">
+        <div className="  mt-20 grow self-stretch p-5 flex flex-col max-w-3xl overflow-scroll no-scroll ml-20 ">
           <div className="  flex flex-col ">
             <div className="flex mx-5">
               <div>
@@ -42,7 +42,7 @@ const About = () => {
                 MY NAME IS ELAMPARITHI
               </h1>
             </div>
-            <div className=" h-20 mt-8">
+            <div className=" h-18 mt-8">
               <TypeIt
                 className="p-3 mx-5 text-xl font-semibold tracking-wider "
                 options={{ loop: true }}
@@ -57,8 +57,8 @@ const About = () => {
                 I AM AVAILABLE FOR UI/UX DESIGN PROJECTS
               </h1> */}
             </div>
-            <div className="">
-              <p className="p-3 mx-5 text-xl">
+            <div className="mt-2">
+              <p className="p-2 mx-5 text-xl">
                 Born in April 1995, a passionate and dedicated front-end
                 developer with a knack for crafting visually appealing and
                 user-centric web experiences.
@@ -166,8 +166,8 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="mt-20 grow self-stretch p-5  flex flex-col ">
-          <div className=" flex gap-10 ">
+        <div className="mt-20 grow self-stretch p-5  flex flex-col mr-20 ">
+          <div className=" flex gap-5 ">
             <div className=" grow w-52  ">
               <img
                 className="w-full rounded-3xl "

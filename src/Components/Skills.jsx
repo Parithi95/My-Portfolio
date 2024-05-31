@@ -4,15 +4,15 @@ import { skills } from "../assets/Constants/constant";
 const Skills = () => {
   return (
     <section
-      className="h-screen bg-gradient-to-r to-sky-300 from-green-500 min-w-max"
+      className="h-full bg-gradient-to-r to-sky-300 from-green-500 "
       id="skills"
     >
-      <div className="container flex justify-between items-start mx-auto w-screen h-full min-w-max">
-        <div className="mt-20 mx-12">
+      <div className="container flex justify-between items-start mx-auto  h-full">
+        <div className="mt-20 ">
           <h1 className="text-3xl mt-6 mx-10 px-8 font-bold tracking-widest text-white">
             SKILLS
           </h1>
-          <div className="mt-5 mx-10 grid grid-cols-4 gap-4">
+          <div className="my-5 mx-10 grid grid-cols-4 grid-flow-dense gap-4">
             {skills.map((skill, i) => (
               <div
                 key={i}

@@ -3,18 +3,18 @@ import React from "react";
 const Portfolio = () => {
   return (
     <section
-      className=" bg-gradient-to-r from-pink-500 to-indigo-300 min-h-screen min-w-max "
+      className=" bg-gradient-to-r from-pink-500 to-indigo-300 min-h-screen "
       id="portfolio"
     >
-      <div className=" container flex justify-between items-start mx-auto w-screen min-h-screen min-w-max ">
-        <div className=" mt-20">
+      <div className=" container flex justify-between items-start mx-auto  h-full">
+        <div className=" mt-20 mx-20">
           <div className="mt-5 ">
             <h1 className="text-black mx-5 text-xl font-semibold tracking-widest">
               MY PROJECTS
             </h1>
           </div>
           <div className=" mt-5 ml-8 grid grid-cols-3 ">
-            <div className="group mx-2 my-2 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300  ">
+            <div className="group mx-2 my-5 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300  ">
               <div className="text-center mt-2">
                 <h2 className="text-black tracking-widest text-4xl font-bold p-2 font-serif group-hover:text-white  transition duration-700 ease-in-out shadow-md shadow-white">
                   NETFLIX CLONE
@@ -90,7 +90,7 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="group mx-2 my-2 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300 ">
+            <div className="group mx-2 my-5 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300 ">
               <div className="text-center mt-2">
                 <h2 className="text-black tracking-widest text-4xl font-bold p-2 font-serif group-hover:text-white  transition duration-700 ease-in-out shadow-md shadow-white ">
                   JOBSTER
@@ -164,10 +164,10 @@ const Portfolio = () => {
                 </div>
               </div>
             </div>
-            <div className="group mx-2 my-2 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300">
+            <div className="group mx-2 my-5 flex flex-col rounded-lg border-2 shadow-lg shadow-orange-300">
               <div className="text-center mt-2">
                 <h2 className="text-black tracking-widest text-4xl font-bold p-2 font-serif group-hover:text-white  transition duration-700 ease-in-out shadow-md shadow-white ">
-                  ECOMMERCE WEBSITE
+                  ECOMMERCE
                 </h2>
               </div>
               <div className="p-3  ">

@@ -14,13 +14,13 @@ const Home = () => {
   return (
     <>
       <section
-        className=" bg-gradient-to-r from-blue-200 to-green-400 md:min-w-max h-full  "
+        className=" bg-gradient-to-r from-blue-200 to-green-400  h-full mx-auto  "
         id="home"
       >
-        <div className="container flex  justify-between items-start mx-auto w-screen min-h-screen min-w-max ">
-          <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full min-h-fit ">
+        <div className="container flex  justify-between items-start mx-auto  min-h-screen ">
+          <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full ml-20 gap-5">
             <div
-              className=" grow my-20 mx-5 py-10 px-5 rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-72  bg-center bg-cover"
+              className=" grow my-20 mx-5   rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-56  bg-center bg-cover"
               style={{
                 backgroundImage:
                   "url(https://img.freepik.com/premium-photo/happy-cartoon-3d-programmer-hacker_1124848-5316.jpg)",
@@ -29,7 +29,7 @@ const Home = () => {
               }}
             ></div>
             <div
-              className="grow my-20 mx-5 py-10 px-5 rounded-br-full rounded-bl-full rounded-tl-full flex justify-center items-center  min-w-72 bg-center bg-cover"
+              className="grow my-20 mx-5  rounded-br-full rounded-bl-full rounded-tl-full flex justify-center items-center  min-w-56 bg-center bg-cover"
               style={{
                 backgroundImage:
                   "url(https://img.freepik.com/free-photo/view-3d-man-holding-laptop_23-2150709818.jpg)",
@@ -38,7 +38,7 @@ const Home = () => {
               }}
             ></div>
           </div>
-          <div className=" md:grow mt-20 flex justify-start self-stretch  ">
+          <div className=" md:grow mt-20 flex justify-start self-stretch mx-20">
             <div className=" my-20 flex flex-col items-start justify-center max-w-md  p-6 ml-5 ">
               <div className="flex gap-x-1">
                 <div className="">
