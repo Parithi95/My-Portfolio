@@ -1,3 +1,9 @@
+import {
+  faTwitter,
+  faFacebook,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
+
 const images = [
   {
     url1: "https://s3.ap-south-1.amazonaws.com/stage.radixweb.com/Hire_React_JS_Developers_e57bec9c4a.jpg",
@@ -10,5 +16,156 @@ const images = [
   },
   {
     url1: "https://s3.ap-south-1.amazonaws.com/stage.radixweb.com/Hire_React_JS_Developers_e57bec9c4a.jpg",
+  },
+];
+
+export const homeImageUrl = [
+  {
+    imageUrl:
+      "https://img.freepik.com/premium-photo/happy-cartoon-3d-programmer-hacker_1124848-5316.jpg",
+  },
+  {
+    imageUrl:
+      "https://img.freepik.com/free-photo/view-3d-man-holding-laptop_23-2150709818.jpg",
+  },
+];
+
+export const homeIcons = [
+  {
+    iconName: faTwitter,
+  },
+  {
+    iconName: faFacebook,
+  },
+  {
+    iconName: faInstagram,
+  },
+];
+
+export const jobDetails = [
+  {
+    icon: "http://www.w3.org/2000/svg",
+    year: "2022 - 2024",
+    job: " Customer Care Executive - GKB Hi Tech Lenses pvt ltd.,Coimbatore",
+    description:
+      "  Proven track record of providing exceptional customer service in fast-paced environments.Ability to empathize with customers, understand their needs, and provide tailored solutions.",
+  },
+  {
+    icon: "http://www.w3.org/2000/svg",
+    year: "2017 - 2021",
+    job: "  Service Technician - Industrial Technoblitz, Chennai",
+    description:
+      "Conducted routine preventive maintenance to ensure optimal performance and longevity of equipment.Provided clear andconcise explanations to customers regarding issues and repairs, ensuring customer satisfaction.",
+  },
+];
+
+export const projectDetails = [
+  {
+    projectName: " NETFLIX CLONE",
+    details: [
+      {
+        key: "Browse & Search",
+        description:
+          "  Users can browse movies and TV shows categorized by genres.",
+      },
+      {
+        key: " Front-end",
+        description:
+          "Built the user interface using React for efficient component-based development.",
+      },
+      {
+        key: " State Management",
+        description:
+          "   Managed application state using Redux for a scalable state management solution.",
+      },
+      {
+        key: "  Movie Details",
+        description:
+          "Clicking on a movie or TV show displays detailed information, including the title, description, rating, and trailer.",
+      },
+      {
+        key: " Learning Outcomes",
+        description:
+          " Gained experience in specific technologies, e.g., React hooks, state management,TMDB API,Styled components, Norigin Media Spatial Navigation.",
+      },
+    ],
+  },
+  {
+    projectName: "  ECOMMERCE",
+    details: [
+      {
+        key: "Product Catalog",
+        description:
+          "Display products with detailed information, including images, descriptions, prices, and stock availability.",
+      },
+      {
+        key: " Front-end",
+        description:
+          " React, Redux for state management, Styled components, React Router.",
+      },
+      {
+        key: "User Authentication",
+        description:
+          " Secure user authentication with registration and login functionality.",
+      },
+      {
+        key: "Shopping Cart",
+        description:
+          "  Users can add products to their cart, update quantities, and remove items.",
+      },
+      {
+        key: " Learning Outcomes",
+        description:
+          " Enhanced understanding of pagination for large product catalogs,Tailwind Css, Third Party Library Integration customization",
+      },
+    ],
+  },
+  {
+    projectName: "JOBSTER",
+    details: [
+      {
+        key: " Job Search",
+        description:
+          "Users can search for jobs based on keywords, location, and job type.",
+      },
+      {
+        key: " Front-end",
+        description:
+          "React, Redux for state management, Styled components,React Router.",
+      },
+      {
+        key: "User Authentication",
+        description:
+          " Secure user authentication with registration and login functionality.",
+      },
+      {
+        key: "Application Management",
+        description:
+          "Users can track their job applications and view application statuses.",
+      },
+      {
+        key: " Learning Outcomes",
+        description:
+          " Enhanced understanding of RESTful API design and integration, React Query,Material UI.",
+      },
+    ],
+  },
+];
+
+export const contactIcons = [
+  {
+    detail:
+      "M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3",
+    information: "+91 99402 74842",
+  },
+  {
+    detail:
+      "M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75",
+    information: " parithi95@gmail.com",
+  },
+  {
+    detail:
+      "M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z",
+    information: "Malleshpalaya, Bangalore",
   },
 ];

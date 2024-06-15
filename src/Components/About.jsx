@@ -4,6 +4,7 @@ import TypeIt from "typeit-react";
 import resume from "../assets/Images/Elamparithi_ReactDev.pdf.pdf";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { jobDetails } from "../assets/Images/ImageUrl";
 
 const About = () => {
   const [instance, setInstance] = useState(null);
@@ -17,32 +18,31 @@ const About = () => {
         <div className="  mt-20 grow self-stretch p-5 flex flex-col max-w-3xl overflow-scroll no-scroll ml-20 ">
           <div className="  flex flex-col ">
             <div className="flex mx-5">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-8 stroke-slate-50 stroke-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6"
-                  />
-                </svg>
-              </div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="size-8 stroke-slate-50 stroke-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6"
+                />
+              </svg>
+
               <h1 className=" mx-5 text-xl font-semibold tracking-widest">
                 ABOUT ME
               </h1>
             </div>
-            <div className="">
-              <h1 className="p-3 mx-5 text-xl font-semibold tracking-wider text-balance">
-                MY NAME IS ELAMPARITHI
-              </h1>
-            </div>
-            <div className=" h-18 mt-8">
+
+            <h1 className="p-3 mx-5 text-xl font-semibold tracking-wider text-balance">
+              MY NAME IS ELAMPARITHI
+            </h1>
+
+            <div className=" h-18 py-5">
               <TypeIt
                 className="p-3 mx-5 text-xl font-semibold tracking-wider "
                 options={{ loop: true }}
@@ -53,117 +53,77 @@ const About = () => {
               >
                 I AM AVAILABLE FOR FRONT END DEVELOPMENT PROJECTS
               </TypeIt>
-              {/* <h1 className="p-3 mx-5 text-2xl font-semibold tracking-wider text-wrap">
-                I AM AVAILABLE FOR UI/UX DESIGN PROJECTS
-              </h1> */}
-            </div>
-            <div className="mt-2">
-              <p className="p-2 mx-5 text-xl">
-                Born in April 1995, a passionate and dedicated front-end
-                developer with a knack for crafting visually appealing and
-                user-centric web experiences.
-              </p>
-            </div>
-            <div className="border-2 mt-4"></div>
-          </div>
-          <div className="grow">
-            <div className="flex mx-4 gap-5 my-4">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-8 stroke-slate-50 stroke-2"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6"
-                  />
-                </svg>
-              </div>
-              <div>
-                <h1 className="text-xl font-semibold tracking-widest">
-                  EXPERIENCE
-                </h1>
-              </div>
             </div>
 
-            <div className="flex px-5 gap-8 mx-5 border-2 p-5 rounded-lg border-white bg-pink-100 shadow-xl shadow-red-200">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-12 border-2 rounded-full p-2 bg-white"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"
-                  />
-                </svg>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div>
-                  <p>2022 - 2024</p>
-                </div>
-                <div>
-                  <h1 className="  text-xl font-semibold tracking-wider">
-                    Customer Care Executive - GKB Hi Tech Lenses pvt ltd.,
-                    Coimbatore
-                  </h1>
-                </div>
-                <div>
-                  <p className="  text-base tracking-wide">
-                    Proven track record of providing exceptional customer
-                    service in fast-paced environments.Ability to empathize with
-                    customers, understand their needs, and provide tailored
-                    solutions.
-                  </p>
-                </div>
-              </div>
+            <p className="p-2 mx-5 text-xl">
+              Born in April 1995, a passionate and dedicated front-end developer
+              with a knack for crafting visually appealing and user-centric web
+              experiences.
+            </p>
+
+            <div className="border-2 mt-4"></div>
+          </div>
+
+          <div className="flex mx-4 gap-5 my-4">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth="1.5"
+                stroke="currentColor"
+                className="size-8 stroke-slate-50 stroke-2"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M16.5 8.25V6a2.25 2.25 0 0 0-2.25-2.25H6A2.25 2.25 0 0 0 3.75 6v8.25A2.25 2.25 0 0 0 6 16.5h2.25m8.25-8.25H18a2.25 2.25 0 0 1 2.25 2.25V18A2.25 2.25 0 0 1 18 20.25h-7.5A2.25 2.25 0 0 1 8.25 18v-1.5m8.25-8.25h-6a2.25 2.25 0 0 0-2.25 2.25v6"
+                />
+              </svg>
             </div>
-            <div className="flex px-5 gap-8 mx-5 my-4 border-2 p-5 mt-4 rounded-lg border-white bg-pink-100 shadow-xl shadow-red-200">
-              <div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  strokeWidth="1.5"
-                  stroke="currentColor"
-                  className="size-12 border-2 rounded-full p-2 bg-white"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"
-                  />
-                </svg>
-              </div>
-              <div className="flex flex-col gap-2 ">
-                <div>
-                  <p>2017 - 2021</p>
-                </div>
-                <div>
-                  <h1 className="  text-xl font-semibold tracking-wider">
-                    Service Technician - Industrial Technoblitz, Chennai
-                  </h1>
-                </div>
-                <div>
-                  <p className="  text-base tracking-wide">
-                    Conducted routine preventive maintenance to ensure optimal
-                    performance and longevity of equipment.Provided clear and
-                    concise explanations to customers regarding issues and
-                    repairs, ensuring customer satisfaction.
-                  </p>
-                </div>
-              </div>
+            <div>
+              <h1 className="text-xl font-semibold tracking-widest">
+                EXPERIENCE
+              </h1>
             </div>
+          </div>
+
+          <div className="flex flex-col px-5 gap-8 mx-5 border-2 p-5 rounded-lg border-white bg-pink-100 shadow-xl shadow-red-200">
+            {jobDetails.map((jobs, index) => {
+              return (
+                <div className="flex gap-5">
+                  <div>
+                    <svg
+                      xmlns={jobs.icon}
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="size-12 border-2 rounded-full p-2 bg-white"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <div key={index} className="flex flex-col gap-2 ">
+                      <p>{jobs.year}</p>
+
+                      <h1 className="  text-xl font-semibold tracking-wider">
+                        {jobs.job}
+                      </h1>
+
+                      <p className="  text-base tracking-wide">
+                        {jobs.description}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </div>
         <div className="mt-20 grow self-stretch p-5  flex flex-col mr-20 ">

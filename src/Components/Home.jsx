@@ -2,11 +2,8 @@ import React, { useState } from "react";
 import TypeIt from "typeit-react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faTwitter,
-  faFacebook,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
+
+import { homeImageUrl, homeIcons } from "../assets/Images/ImageUrl";
 
 const Home = () => {
   const [instance, setInstance] = useState(null);
@@ -19,24 +16,17 @@ const Home = () => {
       >
         <div className="container flex  justify-between items-start mx-auto  min-h-screen ">
           <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full ml-20 gap-5">
-            <div
-              className=" grow my-20 mx-5   rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-56  bg-center bg-cover"
-              style={{
-                backgroundImage:
-                  "url(https://img.freepik.com/premium-photo/happy-cartoon-3d-programmer-hacker_1124848-5316.jpg)",
+            {homeImageUrl.map((image, index) => (
+              <div
+                key={index}
+                className=" grow my-20 mx-5   rounded-tr-full rounded-tl-full rounded-br-full flex justify-center items-center min-w-56  bg-center bg-cover"
+                style={{
+                  backgroundImage: `url(${image.imageUrl})`,
 
-                backgroundRepeat: "no-repeat",
-              }}
-            ></div>
-            <div
-              className="grow my-20 mx-5  rounded-br-full rounded-bl-full rounded-tl-full flex justify-center items-center  min-w-56 bg-center bg-cover"
-              style={{
-                backgroundImage:
-                  "url(https://img.freepik.com/free-photo/view-3d-man-holding-laptop_23-2150709818.jpg)",
-
-                backgroundRepeat: "no-repeat",
-              }}
-            ></div>
+                  backgroundRepeat: "no-repeat",
+                }}
+              ></div>
+            ))}
           </div>
           <div className=" md:grow mt-20 flex justify-start self-stretch mx-20">
             <div className=" my-20 flex flex-col items-start justify-center max-w-md  p-6 ml-5 ">
@@ -85,30 +75,18 @@ const Home = () => {
                 </p>
               </div>
               <div className="mt-5 flex self-stretch gap-5 ">
-                <div className="group p-2  transparent border-2 border-l-rose-500 border-b-yellow-500 border-r-amber-500 border-t-pink-500 rounded-lg hover:border-white  hover:bg-yellow-400 cursor-pointer">
-                  <FontAwesomeIcon
-                    className="group-hover:text-white"
-                    icon={faTwitter}
-                    style={{ width: "35px", height: "35px" }}
-                  />
-                </div>
-                <div className="group p-2 transparent border-2 border-l-rose-500 border-b-yellow-500 border-r-amber-500 border-t-pink-500 rounded-lg hover:border-white  hover:bg-yellow-400 cursor-pointer">
-                  <FontAwesomeIcon
-                    className="group-hover:text-white"
-                    icon={faFacebook}
-                    style={{
-                      width: "35px",
-                      height: "35px",
-                    }}
-                  />
-                </div>
-                <div className="group p-2 transparent border-2 border-l-rose-500 border-b-yellow-500 border-r-amber-500 border-t-pink-500 rounded-lg hover:border-white  hover:bg-yellow-400 cursor-pointer ">
-                  <FontAwesomeIcon
-                    className="group-hover:text-white"
-                    icon={faInstagram}
-                    style={{ width: "35px", height: "35px" }}
-                  />
-                </div>
+                {homeIcons.map((icons, index) => (
+                  <div
+                    key={index}
+                    className="group p-2  transparent border-2 border-l-rose-500 border-b-yellow-500 border-r-amber-500 border-t-pink-500 rounded-lg hover:border-white  hover:bg-yellow-400 cursor-pointer"
+                  >
+                    <FontAwesomeIcon
+                      className="group-hover:text-white"
+                      icon={icons.iconName}
+                      style={{ width: "35px", height: "35px" }}
+                    />
+                  </div>
+                ))}
               </div>
             </div>
           </div>
