@@ -7,7 +7,7 @@ const Skills = () => {
       className="min-h-screen py-20 bg-gradient-to-r to-sky-300 from-green-500 "
       id="skills"
     >
-      <div className="container  mx-auto px-5 ">
+      <div className="  mx-auto px-5 ">
         <h1 className="text-3xl  mx-10 px-8 font-bold tracking-widest text-white">
           SKILLS
         </h1>

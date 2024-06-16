@@ -7,7 +7,7 @@ const Portfolio = () => {
       className=" bg-gradient-to-r from-pink-500 to-indigo-300 min-h-screen "
       id="portfolio"
     >
-      <div className=" container flex flex-col justify-between items-start mx-auto px-5 py-20  h-full">
+      <div className="  flex flex-col justify-between items-start mx-auto px-5 py-20  h-full">
         <div className="  px-10">
           <h1 className="text-black  text-xl font-semibold tracking-widest">
             MY PROJECTS

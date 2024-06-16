@@ -14,7 +14,7 @@ const About = () => {
       className=" bg-gradient-to-r from-pink-300 to-gray-300  h-screen min-h-screen w-full"
       id="about"
     >
-      <div className="  container flex justify-between items-start mx-auto  h-full   ">
+      <div className="  flex justify-between items-start mx-auto  h-full   ">
         <div className="  mt-20 grow self-stretch p-5 flex flex-col max-w-3xl overflow-scroll no-scroll ml-20 ">
           <div className="  flex flex-col ">
             <div className="flex mx-5">

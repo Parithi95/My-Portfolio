@@ -14,7 +14,7 @@ const Home = () => {
         className=" bg-gradient-to-r from-blue-200 to-green-400  h-full mx-auto  "
         id="home"
       >
-        <div className="container flex  justify-between items-start mx-auto  min-h-screen ">
+        <div className=" flex  justify-between items-start mx-auto  min-h-screen ">
           <div className=" grow mt-20 md:self-stretch flex justify-around max-w-full ml-20 gap-5">
             {homeImageUrl.map((image, index) => (
               <div

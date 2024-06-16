@@ -5,14 +5,14 @@ import { homeIcons, contactIcons } from "../assets/Images/ImageUrl";
 const Contact = () => {
   return (
     <section
-      className=" h-screen min-h-screen   min-w-max "
+      className=" h-screen min-h-screen   "
       style={{
         background:
           "linear-gradient(90deg, rgba(35,189,181,1) 0%, rgba(16,61,154,1) 100%)",
       }}
       id="contact"
     >
-      <div className=" container flex flex-col justify-start  mx-auto  min-h-screen  min-w-max ">
+      <div className="  flex flex-col justify-start  mx-auto  min-h-screen  min-w-max ">
         <div className="mx-20">
           <div className="mt-20">
             <h1 className=" mx-5 text-xl font-semibold tracking-widest text-white pt-3">
