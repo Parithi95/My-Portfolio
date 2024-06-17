@@ -5,14 +5,14 @@ import { homeIcons, contactIcons } from "../assets/Images/ImageUrl";
 const Contact = () => {
   return (
     <section
-      className=" h-screen min-h-screen   "
+      className=""
       style={{
         background:
           "linear-gradient(90deg, rgba(35,189,181,1) 0%, rgba(16,61,154,1) 100%)",
       }}
       id="contact"
     >
-      <div className="  flex flex-col justify-start  mx-auto  min-h-screen  min-w-max ">
+      <div className="  flex flex-col justify-start  mx-auto    ">
         <div className="mx-20">
           <div className="mt-20">
             <h1 className=" mx-5 text-xl font-semibold tracking-widest text-white pt-3">
@@ -174,7 +174,7 @@ const Contact = () => {
         </div>
 
         <div
-          className="rounded-lg pt-4  grow flex items-center justify-center bg-gray-200"
+          className="rounded-lg   grow flex items-center justify-center bg-gray-200"
           style={{
             background:
               "linear-gradient(90deg, rgba(35,189,181,1) 0%, rgba(16,61,154,1) 100%)",

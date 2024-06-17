@@ -15,22 +15,21 @@ const Skills = () => {
           {skills.map((skill, i) => (
             <div
               key={i}
-              className="border-4  border-l-rose-500 border-b-yellow-500 border-r-amber-500 border-t-pink-500 rounded-3xl mx-5 p-5  hover:bg-indigo-800 hover:border-white hover:scale-110 bg-sky-950 shadow-indigo-500/50 shadow-inner transition duration-1000 ease-in-out"
+              className="border-4  border-l-rose-500 border-b-yellow-500 border-t-amber-500 border-r-red-500 rounded-3xl mx-5 p-5  hover:bg-indigo-800 hover:border-white  hover:scale-110 bg-sky-950 shadow-indigo-500/50 shadow-inner transition duration-1000 ease-in-out"
             >
               <div className="flex flex-col items-center">
-                <div className="flex justify-between gap-5">
-                  <div className="w-20 h-20 mb-4">
+                <div className="flex justify-between items-start  p-2 gap-2">
+                  <div className="w-16 h-16   items-center  ">
                     <img
                       className="w-full h-full object-contain"
                       src={skill.icon}
                       alt={`${skill.name} icon`}
                     />
                   </div>
-                  <div>
-                    <h1 className="mt-4 text-2xl font-bold tracking-widest text-white mb-4 text-center">
-                      {skill.name}
-                    </h1>
-                  </div>
+
+                  <h1 className="mt-4 text-xl font-bold tracking-widest text-white   ">
+                    {skill.name}
+                  </h1>
                 </div>
 
                 <ul className="text-left text-white">
