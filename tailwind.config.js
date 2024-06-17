@@ -5,6 +5,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      display: ["responsive"],
       fontFamily: {
         sans: ["Inter var", ...defaultTheme.fontFamily.sans],
       },
