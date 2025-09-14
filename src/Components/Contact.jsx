@@ -86,7 +86,7 @@ const Contact = () => {
                     type="button"
                     className=" font-bold tracking-widest text-white"
                   >
-                    Send Message
+                    Send Message To Me
                   </button>
                 </div>
               </form>
